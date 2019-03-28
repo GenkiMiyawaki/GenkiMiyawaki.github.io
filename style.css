@@ -2,13 +2,55 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: 
-        
-    
+    color: dimgray; 
 }
+
+img{
+    width: 400px;
+}
+
 ul{
     display: flex;
     flex-direction: column;
-    background: white;
-    color: indigo;
+}
+
+li{
+    padding: 4px;
+    margin: 4px;
+    border: solid 1px black;
+}
+
+a{
+    transition-duration: 1000ms;
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+#PUBG{
+    background: yellow;
+}
+
+#BDO{
+    background: black;
+}
+
+#AVA{
+    background: red;
+}
+
+#MC{
+    background: brown;
+}
+
+#HFF{
+    background: indigo;
+}
+.content-item{
+    margin: 0px; 
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
